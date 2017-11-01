@@ -13,15 +13,19 @@ the methods to search for by default.  You can supply element_names on a need to
 basis by specifying element_name param in the fucntions that allow it.
 
 To search movies, tvs, and persons based on an imdb id
+
 find_with_external_id(imdb_id, return_first = false)
 
 To search movies, tvs, and persons and get the first result of the default element
+
 find_with_external_id(imdb_id)
 
 Get genres for default_element
+
 get_genres()
 
 Get genres for specific element:
+
 get_genres(element_name = 'name of element')
 
-Continuously developing as I need to for my other projects. 
+Continuously developing as I need to for my other projects.
